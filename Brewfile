@@ -1,0 +1,13 @@
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+brew "node"
+brew "postgresql@14", restart_service: true
+brew "python@3.11"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+cask "font-fira-code"
+cask "google-chrome"
+cask "iterm2"
+cask "rectangle"
